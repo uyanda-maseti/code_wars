@@ -40,3 +40,4 @@ function popElement(arr){
   return arr.pop()
 }
 
+console.log(getLength(arr))
