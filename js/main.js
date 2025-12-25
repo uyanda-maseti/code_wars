@@ -25,5 +25,5 @@ function popElement(arr){
   
   return arr.pop()
 }
-let result = getLength(arr)
+let result = getFirst(arr)
 console.log(result)
