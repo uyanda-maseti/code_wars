@@ -1,17 +1,3 @@
-// Write a function "greet" that returns "hello world!"
-function greet(){
-  return "hello world!";
-}
-
-function numberToString(num) {
-  // Return a string of the number here!
-  return String(num);
-}
-
-function boolToWord( bool ){
-  //...
-  return bool ? 'Yes' : 'No'
-}
 
 let arr = [1,2,3]
 
@@ -39,5 +25,5 @@ function popElement(arr){
   
   return arr.pop()
 }
-
-console.log(getLength(arr))
+let result = getLength(arr)
+console.log(result)
