@@ -25,5 +25,5 @@ function popElement(arr){
   
   return arr.pop()
 }
-let result = getFirst(arr)
+let result = getLast(arr)
 console.log(result)
