@@ -1,10 +1,10 @@
-function howManydays(month){
-  switch (month){
-     case 2: return 28
-     case 4:
-     case 6:
-     case 9:
-     case 11: return 30
+function sum1_100(){
+  let sum=0,num=1
+  while (num<=100){
+    sum+=num;
+    num++;
   }
-  return 31
+  return sum;
 }
+
+console.log(sum1_100())
