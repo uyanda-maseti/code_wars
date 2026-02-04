@@ -1,10 +1,18 @@
-function sum1_100(){
-  let sum=0,num=1
-  while (num<=100){
-    sum+=num;
-    num++;
-  }
-  return sum;
-}
+const dolls =["Mickey Mouse", "Hello Kitty", "Hello Kitty", "Barbie doll", "Snow white"]
 
-console.log(sum1_100())
+function grabDoll(dolls){
+	  var bag=[];
+	  //coding here
+	for(let i = 0; i < dolls.length; i++) {
+		if (dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll") {
+			bag.push(dolls[i])
+		} else {
+
+			continue
+		}
+
+	}
+	  
+	    return bag;
+}
+console.log(grabDoll(dolls))
