@@ -1,4 +1,5 @@
-function howManySmaller(arr,n){
-  return arr.filter(x => +x.toFixed(2) < n).length;
-}
-
+let str="Hello World!";
+console.log(str.indexOf("world"))
+console.log(str.lastIndexOf("world"))
+console.log(str.search(/world/i))
+console.log(str.search(/word/i))
