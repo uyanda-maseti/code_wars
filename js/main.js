@@ -1,5 +1,10 @@
-let str="Hello World!";
-console.log(str.indexOf("world"))
-console.log(str.lastIndexOf("world"))
-console.log(str.search(/world/i))
-console.log(str.search(/word/i))
+function toUpper(string) {
+  return string.toUpperCase();
+}
+
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+const upperCats = cats.map(toUpper);
+
+console.log(upperCats);
+// [ "LEOPARD", "SERVAL", "JAGUAR", "TIGER", "CARACAL", "LION" ]
